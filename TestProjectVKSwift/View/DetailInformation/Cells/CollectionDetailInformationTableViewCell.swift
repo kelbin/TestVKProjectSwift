@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CollectionDetailInformationTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource {
+class CollectionDetailInformationTableViewCell: UITableViewCell, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     @IBOutlet weak var collectionOfPerson: UICollectionView!
     
     private let categories: [String] = ["Друзья", "Общие", "Подписчики", "Фото", "Видео", "Аудио"]

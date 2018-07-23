@@ -2,7 +2,7 @@
 //  Requests.swift
 //  TestProjectVKSwift
 //
-//  Created by Максим Савченко on 20.07.2018.
+//  Created by Максим Савченко on 22.07.2018.
 //  Copyright © 2018 Максим Савченко. All rights reserved.
 //
 
@@ -10,7 +10,10 @@ import Foundation
 import AlamofireObjectMapper
 import Alamofire
 
-class Requests {
+final class Requests {
+    
+    private init() {}
+    
     public static func friendsRequest(id: Int?, token: String?, count: Int?, _ success: @escaping (_ friends: [FriendsItems]?, _ success: Bool) -> Void)  {
         
         let params: Parameters = [
@@ -89,6 +92,7 @@ class Requests {
     
 }
 
+//TODO: Скелет Колбеков
 /*class RequestsCallBack: Requests {
     
     public func authorizeCallBack(token: String?, viewCon: UIViewController, count: Int) {

@@ -2,7 +2,7 @@
 //  UserID.swift
 //  TestProjectVKSwift
 //
-//  Created by Максим Савченко on 21.07.2018.
+//  Created by Максим Савченко on 22.07.2018.
 //  Copyright © 2018 Максим Савченко. All rights reserved.
 //
 

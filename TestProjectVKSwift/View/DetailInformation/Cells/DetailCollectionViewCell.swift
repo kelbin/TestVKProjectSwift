@@ -14,8 +14,6 @@ class DetailCollectionViewCell: UICollectionViewCell {
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        
-        
     }
     
     public func configure(withModel model: CollectionPersonality) {

@@ -265,28 +265,28 @@
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="50" id="fDK-Zb-fPd"/>
                                             </constraints>
-                                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="2Zn-Mw-uoj">
-                                                <size key="itemSize" width="50" height="50"/>
+                                            <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="10" id="ivL-1s-Gyq">
+                                                <size key="itemSize" width="53" height="50"/>
                                                 <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                 <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                                 <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                             </collectionViewFlowLayout>
                                             <cells>
                                                 <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="DetailCollectionCell" id="3sa-Cg-Jvf" customClass="DetailCollectionViewCell" customModule="TestProjectVKSwift" customModuleProvider="target">
-                                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="53" height="50"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                     <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="53" height="50"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="afv-Yr-gvj">
-                                                                <rect key="frame" x="5" y="5" width="40" height="18"/>
+                                                                <rect key="frame" x="5" y="5" width="43" height="18"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                                 <nil key="textColor"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Friends" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFK-Dj-F0E">
-                                                                <rect key="frame" x="5" y="24" width="40" height="12"/>
+                                                                <rect key="frame" x="5" y="24" width="43" height="12"/>
                                                                 <fontDescription key="fontDescription" type="system" pointSize="10"/>
                                                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <nil key="highlightedColor"/>
@@ -294,6 +294,7 @@
                                                         </subviews>
                                                     </view>
                                                     <constraints>
+                                                        <constraint firstAttribute="bottom" secondItem="iFK-Dj-F0E" secondAttribute="bottom" constant="14" id="2cF-Az-CUo"/>
                                                         <constraint firstItem="afv-Yr-gvj" firstAttribute="top" secondItem="3sa-Cg-Jvf" secondAttribute="top" constant="5" id="3l0-t6-2bA"/>
                                                         <constraint firstItem="iFK-Dj-F0E" firstAttribute="top" secondItem="afv-Yr-gvj" secondAttribute="bottom" constant="1" id="4HY-YM-JeR"/>
                                                         <constraint firstItem="afv-Yr-gvj" firstAttribute="leading" secondItem="3sa-Cg-Jvf" secondAttribute="leading" constant="5" id="C2x-Vb-xfz"/>
